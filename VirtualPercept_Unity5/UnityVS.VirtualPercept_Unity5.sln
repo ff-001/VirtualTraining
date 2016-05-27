@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.VirtualPercept_Unity5.CSharp", "UnityVS.VirtualPercept_Unity5.CSharp.csproj", "{D722730E-E972-DA3C-AD2F-2D67CF134475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.VirtualPercept_Unity5.CSharp.Editor", "UnityVS.VirtualPercept_Unity5.CSharp.Editor.csproj", "{72DFF0A5-02EF-EFB0-6F07-68C1FC53A750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.VirtualPercept_Unity5.CSharp.Plugins", "UnityVS.VirtualPercept_Unity5.CSharp.Plugins.csproj", "{C0B99531-F462-1190-9815-14E14EC01815}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D722730E-E972-DA3C-AD2F-2D67CF134475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D722730E-E972-DA3C-AD2F-2D67CF134475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D722730E-E972-DA3C-AD2F-2D67CF134475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D722730E-E972-DA3C-AD2F-2D67CF134475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72DFF0A5-02EF-EFB0-6F07-68C1FC53A750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72DFF0A5-02EF-EFB0-6F07-68C1FC53A750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72DFF0A5-02EF-EFB0-6F07-68C1FC53A750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72DFF0A5-02EF-EFB0-6F07-68C1FC53A750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B99531-F462-1190-9815-14E14EC01815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B99531-F462-1190-9815-14E14EC01815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B99531-F462-1190-9815-14E14EC01815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B99531-F462-1190-9815-14E14EC01815}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
