@@ -41,15 +41,15 @@ public class GameController : MonoBehaviour {
 		else if(trainingMode == TrainingMode.PerceptApp){
 
 		}
-		if(playerType == PlayerType.Oculus){
-				GameObject oculusgo = Instantiate(OculusPlayerPrefab, PlayerStartPosition, Quaternion.identity) as GameObject;
-				oculusgo.transform.parent = GameObject.FindGameObjectWithTag(UnityTag.OculusObjects).transform;
-				SceneObjects.SetActive(false);
-		}else if(playerType == PlayerType.Scene){
+//		if(playerType == PlayerType.Oculus){
+//				GameObject oculusgo = Instantiate(OculusPlayerPrefab, PlayerStartPosition, Quaternion.identity) as GameObject;
+//				oculusgo.transform.parent = GameObject.FindGameObjectWithTag(UnityTag.OculusObjects).transform;
+//				SceneObjects.SetActive(false);
+//		}else if(playerType == PlayerType.Scene){
 				GameObject scenego = Instantiate(ScenePlayerPrefab,  PlayerStartPosition, Quaternion.identity) as GameObject;
 				scenego.transform.parent = GameObject.FindGameObjectWithTag(UnityTag.SceneObjects).transform;
 				OculusObjects.SetActive(false);
-		}
+//		}
 
 		this.OnInitial += OnPlayerInitial;
 		OnInitial();

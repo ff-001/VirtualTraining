@@ -80,6 +80,7 @@
 -define:UNITY_EDITOR_OSX
 -define:UNITY_TEAM_LICENSE
 -define:UNITY_PRO_LICENSE
+-define:net35
 'Assets/NGUI/Examples/Scripts/InventorySystem/Game/EquipItems.cs'
 'Assets/NGUI/Examples/Scripts/InventorySystem/Game/EquipRandomItem.cs'
 'Assets/NGUI/Examples/Scripts/InventorySystem/Game/UICursor.cs'
